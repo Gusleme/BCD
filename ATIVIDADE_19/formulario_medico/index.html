@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">   
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Academia</title>
+</head>
+<body>
+    <form action="enviado.html" method="post">
+
+        <label for="nome"> Nome:</label>
+        <input type="text" name="nome" id="nome"
+        required = "required" autofocus><br>
+        <label for="text"> area de atuação:</label>
+        <input type="area" name="area" id="area" required
+        placeholder="exemplo: pediatria, gastro, cardiologista"><br>
+        <label for="telefone"> email:</label>
+        <input type="email" name="email" id="email"
+        required><br>
+        <label for="text">telefone:</label>
+        <input type="tel" name="telefone" id="telefone"
+        required><br>
+        <br>
+        <br>
+        <label>Comentarios adicionais: </label>
+        <textarea name="Informações" cols="25" rows="8"
+        maxlenght="100" required placeholder="Escreva Informações adicionais que julgar importante"></textarea>
+        <br>
+        <input type="submit" name="enviar" value="Enviar" id="enviar">
+        <p>
+        <input type="submit" value="Enviar (Simulação)" id="enviar">
+        </p>
+        </form>
+</body>
+</html>
